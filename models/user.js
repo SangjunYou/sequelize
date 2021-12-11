@@ -12,7 +12,7 @@ module.exports = class User extends Sequelize.Model {
                 type: Sequelize.INTEGER.UNSIGNED,
                 allowNull: false,
             },
-            marryied: {
+            married: {
                 type: Sequelize.BOOLEAN,
                 allowNull: false,
             },
